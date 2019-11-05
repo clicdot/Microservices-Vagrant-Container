@@ -1,10 +1,10 @@
-# EDR Micro-Service Container VM
+# Micro-Service Container VM
 
 #### v0.1beta
 
 - Install Vagrant https://www.vagrantup.com/downloads.html
 - Install VirtualBox https://www.virtualbox.org/wiki/Downloads
-- Download Dev VagrantFile from GitHub https://github.com/EDRInc/EDR-Microservice-Vagrant-Container
+- Download Dev VagrantFile from GitHub https://github.com/clicdot/Microservices-Vagrant-Container.git
 - Create a folder on your local computer
 - Place VagrantFile into folder
 - Change to directory created, using terminal

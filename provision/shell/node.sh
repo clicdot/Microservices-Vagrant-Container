@@ -16,7 +16,7 @@ sudo apt-get install -y nodejs
 echo
 echo 'Install serverless'
 echo
-sudo npm install -g serverless
+sudo npm install -g serverless n pm2
 echo
 echo 'Install Docker Compose Generator'
 echo

@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/bionic64"
 
   config.vm.provider :virtualbox do |vb|
-    vb.name = "edrms"
+    vb.name = "devms"
     vb.customize [
       "modifyvm", :id,
       "--memory", "4096",
@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
       ]
     end
 
-  config.vm.hostname = "edrms.dev"
+  config.vm.hostname = "devms.dev"
 
   config.vm.synced_folder "apps", "/apps"
   config.vm.synced_folder "pkgs", "/pkgs"
